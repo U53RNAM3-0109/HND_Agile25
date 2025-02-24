@@ -5,7 +5,7 @@
  * @created 05/02/2025
 **/
 
-namespace MyProject;
+namespace BtecBytes;
 
 require_once __DIR__ . '/../inc/smarty/libs/Smarty.class.php';
 use Smarty\Smarty;

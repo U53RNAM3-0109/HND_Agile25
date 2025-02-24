@@ -1,7 +1,7 @@
 <html>
     <div style="background-color: #EDEDED;">
         <div class = "container text-center py-5">
-    <h2>Greenleaf Market’S PRIVACY POLICY (VERSION 1.0)</h2>
+    <h2>BTEC BYTES’ PRIVACY POLICY (VERSION 1.0)</h2>
     <p>THE SHORT VERSION
         We collect anonymous statistics about your visit, like which of our pages you viewed.
         Some 3rd parties like Facebook and Twitter may know you visited this website, if you use their services. We can't control them but we don't believe this knowledge poses any threat to you.
@@ -28,7 +28,7 @@
         We will never provide your personal information or email address to any third parties except where they are specifically employed to help deliver our own services, as detailed above.
 
         SECURITY
-        Greenleaf Market take many precautions to prevent the loss, misuse or alteration of your personal information. These precautions include:
+        BTEC Bytes take many precautions to prevent the loss, misuse or alteration of your personal information. These precautions include:
 
         Use of SSL encryption for sensitive data
         Hardware stored in secured datacentres behind firewalls

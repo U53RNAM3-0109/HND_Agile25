@@ -6,7 +6,7 @@
 
     require_once('../configs/common.php');
 
-    use MyProject\Common;
+    use BtecBytes\Common;
     
     class Index extends Common {
     
