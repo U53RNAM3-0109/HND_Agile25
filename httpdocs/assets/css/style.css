@@ -1,0 +1,394 @@
+header {
+    background-color: #CDD8E0;
+    color: #10142D;
+    font-family: Nunito;
+}
+nav {
+    float: right;
+}
+nav a {
+    text-decoration: none;
+    color: #10142D;
+    padding-right: 25px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+body {
+    background-color: #CDD8E0;
+    font-family: Nunito;
+    margin-top: 1rem;
+}
+.bbtitle {
+    text-align: center;
+    margin: 2rem 0rem;
+    color: #10142D;
+    font-weight: 700;
+}
+.bbtitlelrg {
+    text-align: center;
+    margin: 2rem 0 2rem 6rem;
+    color: #10142D;
+    font-weight: 800;
+    font-size: 4rem;
+}
+.bbtitlemed {
+    text-align: center;
+    margin: 2rem 0 2rem 6rem;
+    color: #10142D;
+    font-weight: 800;
+    font-size: 3rem;
+}
+.logincontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #10142D;
+}
+.loginimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.usersignin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+.signinfield
+{
+    margin-bottom: 3rem;
+    width: 80%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    border: thin solid #10142D;
+    border-radius: 5px;
+    background-color: #CDD8E0;
+    color: #10142D;
+}
+#signinbtn {
+    width: 80%;
+    background-color: #10142D;
+    border: none;
+    color: #CDD8E0;
+    text-align: center;
+
+}
+#createacctbtn {
+    width: 80%;
+    background-color: #CDD8E0;
+    color: #10142D;
+    border: thin solid #10142D;
+    margin: 1rem 0rem;
+}
+.topaccount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.acctimglrg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topaccount button{
+    margin-top: 1.5rem;
+    width: 60%;
+    background-color: #10142D;
+    color: #CDD8E0;
+    font-weight: 600;
+}
+.createaccountform {
+    margin: 2rem 0 0 4rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+#cracctmain input {
+    background-color: #9EB3C2;
+    border: solid thin #10142D;
+    border-radius: 5px;
+    padding: .375rem .75rem;
+}
+.createaccountform2 {
+    margin-top: 2rem;
+    font-size: 20px;
+    font-weight: 700;
+}
+.createacctfield {
+    margin: 2rem;
+}
+#cracctbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+#cracctbtn button {
+    margin-top: 1.5rem;
+    font-weight: 600;
+    width: 60%;
+    padding: 1rem;
+}
+#creation {
+    background-color: #10142D;
+    color: #CDD8E0;
+}
+#cancelbtn {
+    background-color: #CDD8E0;
+    border: solid thin #10142D;
+    color: #10142D;
+}
+.penciledit {
+    width: 300px;
+}
+.acctedit {
+    margin: 4rem 1rem;
+}
+#logoutcont {
+    display: flex;
+    align-items: flex-end;
+
+}
+#logoutbtn {
+    background-color: #10142D;
+    color: #CDD8E0;
+    padding: 1rem 3rem;
+    margin: 0 0 1rem 3rem;
+}
+.studybuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.studybuttons button {
+    width: 250px;
+    height: 110px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #1B3B6F;
+    border: none;
+    border-radius: 10px;
+
+}
+.studybuttons a {
+    text-decoration: none;
+    color: #CDD8E0;
+}
+.revisebuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.revisebuttons button {
+    width: 250px;
+    height: 110px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #065A82;
+    border: none;
+    border-radius: 10px;
+
+}
+.revisebuttons a {
+    text-decoration: none;
+    color: #CDD8E0;
+}
+.testbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.testbuttons button {
+    width: 250px;
+    height: 110px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #1C7293;
+    border: none;
+    border-radius: 10px;
+
+}
+.testbuttons a {
+    text-decoration: none;
+    color: #CDD8E0;
+}
+.homebtn {
+    width: 250px;
+    height: 80px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #10142D;
+    border: none;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+.homebtn a {
+    text-decoration: none;
+    color: #CDD8E0;
+}
+.backarrow {
+    margin-top: 1.25rem;
+    margin-left: .5rem;
+}
+.quizcont {
+    margin-bottom: 8rem;
+}
+.quizcont h3{
+    margin-top: 4rem;
+    color: #10142D;;
+}
+.radioanswer {
+    margin-left: 2rem;
+    margin-bottom: .5rem;
+    color: #10142D;
+}
+.radioanswer input {
+    background-color: #9EB3C2;
+    border: thin solid #10142D;
+    color: #10142D;
+}
+#quizfoot {
+    background-color: #1C7293;
+    color: #CDD8E0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 6rem;
+    position: fixed;
+    bottom: 0;
+}
+#quizfoot h3 {
+    margin-top: 0.75rem;
+    font-weight: 800;
+}
+#quizfoot button {
+    background-color: #10142D;
+    margin: 0 2rem;
+    font-weight: 800;
+    width: 150px;
+    height: 64px;
+}
+.topicmenu button {
+    border: none;
+    background-color: #CDD8E0;
+    color: #10142D;
+}
+.topicchunk {
+    margin: 2rem 0;
+}
+.topicchunk h5 {
+    margin-left: 2rem;
+}
+.topicchunk a {
+    text-decoration: none;
+    color: #10142D;
+}
+.content {
+    display: none;
+}
+.active + .content {
+    display: block;
+}
+.collapsible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.arrow {
+    transition: transform 0.3s ease;
+    display: inline-block; /* Keeps the arrow aligned properly */
+}
+
+.collapsible.active .arrow {
+    transform: rotate(90deg); /* Rotates arrow when active */
+}
+.printable {
+    display: flex;
+}
+.printtxt {
+    font-weight: 600;
+    color: #1B3B6F;
+    margin-right: 1rem;
+}
+.pastpapcont {
+    margin-bottom: 4rem;
+}
+.pastpapcont h3{
+    color: #21295C;
+    margin-top: 4rem;
+}
+.pastpapcont textarea {
+
+    color: #21295C;
+    border: thin solid #21295C;
+    background-color: #9EB3C2;
+}
+.pastpapcont h5 {
+    float: right;
+    font-style: italic;
+    color: #21295C;
+}
+.pastpapsubmit {
+    width: 250px;
+    height: 80px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: #10142D;
+    border: none;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+.pastpapsubmit a {
+    color: #CDD8E0;
+    text-decoration: none;
+}
+.progcontent h2 {
+    font-weight: 600;
+    margin-top: 3rem;
+}
+.progcontent h3 {
+    text-align: center;
+    margin-top: 2rem;
+}
+.progcontent h4 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+.predictprog {
+    text-align: center;
+    margin-top: 3rem;
+}
+.predictprog h3 {
+    font-weight: 800;
+}
+.keywords {
+    background-color: #1B3B6F;
+    color: #CDD8E0;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.keywords h2 {
+    font-weight: 700;
+    text-decoration: underline;
+    margin: 1rem 0;
+}
+.keywords h4 {
+    font-style: italic;
+}
