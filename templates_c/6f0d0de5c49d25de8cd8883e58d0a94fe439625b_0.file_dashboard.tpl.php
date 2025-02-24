@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-24 20:56:36
+/* Smarty version 5.4.3, created on 2025-02-24 22:03:30
   from 'file:index/dashboard.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_67bcdd0401f298_38533166',
+  'unifunc' => 'content_67bcecb2497191_17914103',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6f0d0de5c49d25de8cd8883e58d0a94fe439625b' => 
     array (
       0 => 'index/dashboard.tpl',
-      1 => 1740430591,
+      1 => 1740434573,
       2 => 'file',
     ),
   ),
@@ -21,25 +21,25 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
     'file:page/header.tpl' => 1,
   ),
 ))) {
-function content_67bcdd0401f298_38533166 (\Smarty\Template $_smarty_tpl) {
+function content_67bcecb2497191_17914103 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\repos\\HND_Agile25\\templates\\index';
 $_smarty_tpl->getInheritance()->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_62205280267bcdd04018ed6_65144397', "title");
+$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_89486087067bcecb2492127_01576616', "title");
 ?>
 
 
 <?php 
-$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_49010304967bcdd0401c952_17261027', "content");
+$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_39803850567bcecb2494bc3_09169175', "content");
 ?>
 
 <?php $_smarty_tpl->getInheritance()->endChild($_smarty_tpl, 'page/base.tpl', $_smarty_current_dir);
 }
 /* {block "title"} */
-class Block_62205280267bcdd04018ed6_65144397 extends \Smarty\Runtime\Block
+class Block_89486087067bcecb2492127_01576616 extends \Smarty\Runtime\Block
 {
 public function callBlock(\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\repos\\HND_Agile25\\templates\\index';
@@ -49,7 +49,7 @@ Dashboard<?php
 }
 /* {/block "title"} */
 /* {block "content"} */
-class Block_49010304967bcdd0401c952_17261027 extends \Smarty\Runtime\Block
+class Block_39803850567bcecb2494bc3_09169175 extends \Smarty\Runtime\Block
 {
 public function callBlock(\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\repos\\HND_Agile25\\templates\\index';
@@ -66,7 +66,7 @@ $_smarty_current_dir = 'C:\\repos\\HND_Agile25\\templates\\index';
         <div class="col-8">
             <h2 class="dashsubtitle">Study</h2>
             <div class="studybuttons">
-                <button><a href="#">Topics</a></button>
+                <button><a href="/topics.php">Topics</a></button>
                 <button><a href="#">Homework</a></button>
                 <button><a href="#">Extra Reading</a></button>
                 <button><a href="#">Upcoming Topics</a></button>

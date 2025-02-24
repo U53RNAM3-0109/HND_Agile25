@@ -13,7 +13,7 @@
         <div class="col-8">
             <h2 class="dashsubtitle">Study</h2>
             <div class="studybuttons">
-                <button><a href="#">Topics</a></button>
+                <button><a href="/topics.php">Topics</a></button>
                 <button><a href="#">Homework</a></button>
                 <button><a href="#">Extra Reading</a></button>
                 <button><a href="#">Upcoming Topics</a></button>

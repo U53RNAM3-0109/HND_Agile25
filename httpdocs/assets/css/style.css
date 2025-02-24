@@ -30,14 +30,14 @@ body {
 }
 .bbtitlelrg {
     text-align: center;
-    margin: 2rem 0 2rem 6rem;
+    margin: 2rem 0 2rem 0;
     color: #10142D;
     font-weight: 800;
     font-size: 4rem;
 }
 .bbtitlemed {
     text-align: center;
-    margin: 2rem 0 2rem 6rem;
+    margin: 2rem 0 2rem 0;
     color: #10142D;
     font-weight: 800;
     font-size: 3rem;
