@@ -3,9 +3,13 @@ header {
     color: #10142D;
     font-family: Nunito;
 }
-nav {
+/* nav {
     float: right;
 }
+
+nav img{
+    float: left;
+} */
 nav a {
     text-decoration: none;
     color: #10142D;

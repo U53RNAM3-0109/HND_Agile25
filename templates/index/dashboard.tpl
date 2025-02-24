@@ -4,7 +4,6 @@
 
 {block name="content"}
     {include file='page/header.tpl'}
-
     <div class="row">
         <h1 class="bbtitlelrg">Dashboard</h1>
     </div>
