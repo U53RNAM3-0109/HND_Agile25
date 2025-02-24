@@ -18,5 +18,3 @@
         </main>
 
     </div>
-</body>
-</html>
