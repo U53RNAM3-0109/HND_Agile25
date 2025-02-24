@@ -21,7 +21,7 @@
         }
     
         public function proccess() {
-            $this->display('index/main.tpl'); 
+            $this->display('index/dashboard.tpl'); 
         }
     }
     
