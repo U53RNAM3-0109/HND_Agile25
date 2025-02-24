@@ -1,9 +1,9 @@
-.header {
+header {
     background-color: #CDD8E0;
     color: #10142D;
     font-family: Nunito;
 }
-.nav {
+nav {
     float: right;
 }
 .nav a {
