@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.4.3, created on 2025-02-24 20:25:28
+/* Smarty version 5.4.3, created on 2025-02-24 20:35:58
   from 'file:index/dashboard.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.4.3',
-  'unifunc' => 'content_67bcd5b8da1163_66393276',
+  'unifunc' => 'content_67bcd82e7ed0f3_56191199',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6f0d0de5c49d25de8cd8883e58d0a94fe439625b' => 
     array (
       0 => 'index/dashboard.tpl',
-      1 => 1740427949,
+      1 => 1740429356,
       2 => 'file',
     ),
   ),
@@ -21,25 +21,25 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
     'file:page/header.tpl' => 1,
   ),
 ))) {
-function content_67bcd5b8da1163_66393276 (\Smarty\Template $_smarty_tpl) {
+function content_67bcd82e7ed0f3_56191199 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\repos\\HND_Agile25\\templates\\index';
 $_smarty_tpl->getInheritance()->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_109759493167bcd5b8d9c3f8_67510757', "title");
+$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_162626864567bcd82e7e7a91_09116135', "title");
 ?>
 
 
 <?php 
-$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_183981606667bcd5b8d9ed57_83933524', "content");
+$_smarty_tpl->getInheritance()->instanceBlock($_smarty_tpl, 'Block_24633641767bcd82e7eab10_14507941', "content");
 ?>
 
 <?php $_smarty_tpl->getInheritance()->endChild($_smarty_tpl, 'page/base.tpl', $_smarty_current_dir);
 }
 /* {block "title"} */
-class Block_109759493167bcd5b8d9c3f8_67510757 extends \Smarty\Runtime\Block
+class Block_162626864567bcd82e7e7a91_09116135 extends \Smarty\Runtime\Block
 {
 public function callBlock(\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\repos\\HND_Agile25\\templates\\index';
@@ -49,7 +49,7 @@ Dashboard<?php
 }
 /* {/block "title"} */
 /* {block "content"} */
-class Block_183981606667bcd5b8d9ed57_83933524 extends \Smarty\Runtime\Block
+class Block_24633641767bcd82e7eab10_14507941 extends \Smarty\Runtime\Block
 {
 public function callBlock(\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = 'C:\\repos\\HND_Agile25\\templates\\index';

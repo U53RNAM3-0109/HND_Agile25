@@ -1,12 +1,12 @@
-header {
+.header {
     background-color: #CDD8E0;
     color: #10142D;
     font-family: Nunito;
 }
-nav {
+.nav {
     float: right;
 }
-nav a {
+.nav a {
     text-decoration: none;
     color: #10142D;
     padding-right: 25px;
