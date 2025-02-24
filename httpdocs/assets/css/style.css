@@ -48,21 +48,20 @@ body {
     justify-content: center;
     color: #10142D;
 }
-.loginimg {
+/* .loginimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
-}
-.usersignin {
+    width: 100%;
+} */
+/* .usersignin {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 5rem;
-}
+} */
 .signinfield
 {
-    margin-bottom: 3rem;
     width: 80%;
     padding: .375rem .75rem;
     line-height: 1.5;
