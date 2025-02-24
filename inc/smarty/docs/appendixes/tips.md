@@ -68,7 +68,7 @@ title.
 
 ```smarty
 
-{include file='header.tpl' title='Main Page'}
+{include file='page/header.tpl' title='Main Page'}
 {* template body goes here *}
 {include file='footer.tpl'}
 
@@ -82,7 +82,7 @@ the `archives_page.conf` file instead of a hard coded variable.
 
 {config_load file='archive_page.conf'}
 
-{include file='header.tpl' title=#archivePageTitle#}
+{include file='page/header.tpl' title=#archivePageTitle#}
 {* template body goes here *}
 {include file='footer.tpl'}
 

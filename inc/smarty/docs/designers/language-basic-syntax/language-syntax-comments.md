@@ -38,7 +38,7 @@ notes in the templates which no one will see ;-)
     **********************************************************}
 
     {* The header file with the main logo and stuff  *}
-    {include file='header.tpl'}
+    {include file='page/header.tpl'}
 
 
     {* Dev note:  the $includeFile var is assigned in foo.php script  *}

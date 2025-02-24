@@ -1,9 +1,9 @@
-{extends file='base.tpl'}
+{extends file='page/base.tpl'}
 
 {block name="title"}Progress{/block}
 
 {block name="content"}
-    {include file='header.tpl'}
+    {include file='page/header.tpl'}
 
     <div class="row">
         <div class="col"></div>

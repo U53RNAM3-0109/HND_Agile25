@@ -1,9 +1,9 @@
-{extends file='base.tpl'}
+{extends file='page/base.tpl'}
 
 {block name="title"}Dashboard{/block}
 
 {block name="content"}
-    {include file='header.tpl'}
+    {include file='page/header.tpl'}
 
     <div class="row">
         <h1 class="bbtitlelrg">Dashboard</h1>
@@ -51,7 +51,7 @@
     <div class="row">
         <div class="col-5"></div>
         <div class="col">
-            <button class="homebtn"><a href="{$base_url}/progress.tpl">Progress</a></button>
+            <button class="homebtn"><a href="/progress.php">Progress</a></button>
         </div>
         <div class="col-5"></div>
     </div>

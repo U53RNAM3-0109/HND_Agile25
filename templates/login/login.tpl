@@ -1,4 +1,4 @@
-{extends file='base.tpl'}
+{extends file='page/base.tpl'}
 
 {block name="title"}Login{/block}
 
